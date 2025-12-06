@@ -1,0 +1,29 @@
+
+Dataset Path: /content/colab143/competitionData/ptDecoder_ctc
+Successfully imported trainModel
+batch 0, ctc loss: 7.907190, cer: 0.911807, time/batch:   0.015
+batch 100, ctc loss: 79.042801, cer: 0.972391, time/batch:   0.177
+batch 200, ctc loss: 3.952523, cer: 0.963683, time/batch:   0.176
+batch 300, ctc loss: 4.812153, cer: 0.963683, time/batch:   0.172
+batch 400, ctc loss: 4.137359, cer: 0.963683, time/batch:   0.179
+batch 500, ctc loss: 4.970092, cer: 0.963683, time/batch:   0.181
+batch 600, ctc loss: 3.797531, cer: 0.963683, time/batch:   0.177
+batch 700, ctc loss: 3.437212, cer: 0.946886, time/batch:   0.177
+batch 800, ctc loss: 3.542656, cer: 0.946886, time/batch:   0.180
+batch 900, ctc loss: 3.902438, cer: 0.945813, time/batch:   0.178
+batch 1000, ctc loss: 3.541129, cer: 0.938385, time/batch:   0.178
+batch 1100, ctc loss: 6.803173, cer: 0.947423, time/batch:   0.176
+batch 1200, ctc loss: 19.008793, cer: 0.865008, time/batch:   0.176
+batch 1300, ctc loss:     nan, cer: 1.000000, time/batch:   0.186
+batch 1400, ctc loss:     nan, cer: 1.000000, time/batch:   0.173
+batch 1500, ctc loss:     nan, cer: 1.000000, time/batch:   0.178
+batch 1600, ctc loss:     nan, cer: 1.000000, time/batch:   0.175
+batch 1700, ctc loss:     nan, cer: 1.000000, time/batch:   0.180
+batch 1800, ctc loss:     nan, cer: 1.000000, time/batch:   0.177
+batch 1900, ctc loss:     nan, cer: 1.000000, time/batch:   0.177
+batch 2000, ctc loss:     nan, cer: 1.000000, time/batch:   0.174
+batch 2100, ctc loss:     nan, cer: 1.000000, time/batch:   0.182
+batch 2200, ctc loss:     nan, cer: 1.000000, time/batch:   0.177
+batch 2300, ctc loss:     nan, cer: 1.000000, time/batch:   0.175
+batch 2400, ctc loss:     nan, cer: 1.000000, time/batch:   0.175
+batch 2500, ctc loss:     nan, cer: 1.000000, time/batch:   0.176"
