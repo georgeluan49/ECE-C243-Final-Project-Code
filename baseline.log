@@ -1,0 +1,110 @@
+nohup: ignoring input
+/opt/python/3.10/lib/python3.10/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+/opt/python/3.10/lib/python3.10/site-packages/torch/functional.py:513: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3609.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/qitongluan/neural_seq_decoder/src/neural_decoder/augmentations.py:91: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at ../aten/src/ATen/native/Convolution.cpp:1031.)
+  return self.conv(input, weight=self.weight, groups=self.groups, padding="same")
+/home/qitongluan/neural_seq_decoder/src/neural_decoder/./neural_decoder_trainer.py:183: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  torch.tensor(pred[iterIdx, 0 : adjustedLens[iterIdx], :]),
+batch 0, ctc loss: 5.966360, cer: 0.959886, time/batch:   0.117
+batch 100, ctc loss: 2.739238, cer: 0.826214, time/batch:   3.260
+batch 200, ctc loss: 2.343632, cer: 0.694028, time/batch:   3.348
+batch 300, ctc loss: 2.127338, cer: 0.596674, time/batch:   3.274
+batch 400, ctc loss: 1.968490, cer: 0.554496, time/batch:   3.396
+batch 500, ctc loss: 1.857700, cer: 0.515373, time/batch:   3.425
+batch 600, ctc loss: 1.762687, cer: 0.479386, time/batch:   3.354
+batch 700, ctc loss: 1.675612, cer: 0.467418, time/batch:   3.360
+batch 800, ctc loss: 1.602879, cer: 0.450373, time/batch:   3.446
+batch 900, ctc loss: 1.527497, cer: 0.424869, time/batch:   3.396
+batch 1000, ctc loss: 1.478208, cer: 0.414139, time/batch:   3.388
+batch 1100, ctc loss: 1.415419, cer: 0.399942, time/batch:   3.353
+batch 1200, ctc loss: 1.372263, cer: 0.385622, time/batch:   3.328
+batch 1300, ctc loss: 1.324592, cer: 0.370930, time/batch:   3.398
+batch 1400, ctc loss: 1.281708, cer: 0.356651, time/batch:   3.336
+batch 1500, ctc loss: 1.252614, cer: 0.348108, time/batch:   3.434
+batch 1600, ctc loss: 1.219858, cer: 0.344146, time/batch:   3.371
+batch 1700, ctc loss: 1.197609, cer: 0.332838, time/batch:   3.466
+batch 1800, ctc loss: 1.163817, cer: 0.327349, time/batch:   3.408
+batch 1900, ctc loss: 1.137104, cer: 0.316784, time/batch:   3.407
+batch 2000, ctc loss: 1.128519, cer: 0.317775, time/batch:   3.359
+batch 2100, ctc loss: 1.101284, cer: 0.308819, time/batch:   3.472
+batch 2200, ctc loss: 1.081449, cer: 0.305724, time/batch:   3.402
+batch 2300, ctc loss: 1.063420, cer: 0.297883, time/batch:   3.402
+batch 2400, ctc loss: 1.059504, cer: 0.299699, time/batch:   3.400
+batch 2500, ctc loss: 1.045272, cer: 0.292353, time/batch:   3.391
+batch 2600, ctc loss: 1.030045, cer: 0.288969, time/batch:   3.388
+batch 2700, ctc loss: 1.019336, cer: 0.284264, time/batch:   3.385
+batch 2800, ctc loss: 1.001584, cer: 0.280756, time/batch:   3.387
+batch 2900, ctc loss: 0.990371, cer: 0.281004, time/batch:   3.407
+batch 3000, ctc loss: 0.979481, cer: 0.276835, time/batch:   3.432
+batch 3100, ctc loss: 0.973154, cer: 0.274029, time/batch:   3.341
+batch 3200, ctc loss: 0.968583, cer: 0.271553, time/batch:   3.397
+batch 3300, ctc loss: 0.950900, cer: 0.266766, time/batch:   3.375
+batch 3400, ctc loss: 0.948087, cer: 0.264702, time/batch:   3.408
+batch 3500, ctc loss: 0.933780, cer: 0.259461, time/batch:   3.329
+batch 3600, ctc loss: 0.921122, cer: 0.259667, time/batch:   3.408
+batch 3700, ctc loss: 0.927086, cer: 0.259337, time/batch:   3.354
+batch 3800, ctc loss: 0.916347, cer: 0.253436, time/batch:   3.412
+batch 3900, ctc loss: 0.906647, cer: 0.252074, time/batch:   3.419
+batch 4000, ctc loss: 0.904717, cer: 0.250671, time/batch:   3.436
+batch 4100, ctc loss: 0.894078, cer: 0.248401, time/batch:   3.434
+batch 4200, ctc loss: 0.899857, cer: 0.246915, time/batch:   3.460
+batch 4300, ctc loss: 0.886438, cer: 0.246791, time/batch:   3.469
+batch 4400, ctc loss: 0.883018, cer: 0.245553, time/batch:   3.491
+batch 4500, ctc loss: 0.888755, cer: 0.245058, time/batch:   3.403
+batch 4600, ctc loss: 0.888535, cer: 0.242375, time/batch:   3.359
+batch 4700, ctc loss: 0.882763, cer: 0.240890, time/batch:   3.397
+batch 4800, ctc loss: 0.867984, cer: 0.240188, time/batch:   3.291
+batch 4900, ctc loss: 0.867319, cer: 0.236680, time/batch:   3.403
+batch 5000, ctc loss: 0.870668, cer: 0.238001, time/batch:   3.485
+batch 5100, ctc loss: 0.863879, cer: 0.236639, time/batch:   3.421
+batch 5200, ctc loss: 0.867801, cer: 0.234493, time/batch:   3.390
+batch 5300, ctc loss: 0.867167, cer: 0.233750, time/batch:   3.396
+batch 5400, ctc loss: 0.862811, cer: 0.231563, time/batch:   3.470
+batch 5500, ctc loss: 0.861451, cer: 0.232883, time/batch:   3.448
+batch 5600, ctc loss: 0.846687, cer: 0.229334, time/batch:   3.396
+batch 5700, ctc loss: 0.847171, cer: 0.227147, time/batch:   3.483
+batch 5800, ctc loss: 0.847325, cer: 0.229582, time/batch:   3.482
+batch 5900, ctc loss: 0.841983, cer: 0.229458, time/batch:   3.431
+batch 6000, ctc loss: 0.853315, cer: 0.230201, time/batch:   3.402
+batch 6100, ctc loss: 0.855478, cer: 0.227725, time/batch:   3.219
+batch 6200, ctc loss: 0.849364, cer: 0.227312, time/batch:   3.355
+batch 6300, ctc loss: 0.851386, cer: 0.225868, time/batch:   3.418
+batch 6400, ctc loss: 0.852008, cer: 0.221947, time/batch:   3.506
+batch 6500, ctc loss: 0.850421, cer: 0.223474, time/batch:   3.359
+batch 6600, ctc loss: 0.844536, cer: 0.223680, time/batch:   3.429
+batch 6700, ctc loss: 0.847541, cer: 0.221741, time/batch:   3.371
+batch 6800, ctc loss: 0.832228, cer: 0.218357, time/batch:   3.331
+batch 6900, ctc loss: 0.836773, cer: 0.220998, time/batch:   3.431
+batch 7000, ctc loss: 0.835056, cer: 0.220585, time/batch:   3.343
+batch 7100, ctc loss: 0.842455, cer: 0.223350, time/batch:   3.458
+batch 7200, ctc loss: 0.840387, cer: 0.219925, time/batch:   3.347
+batch 7300, ctc loss: 0.831971, cer: 0.218852, time/batch:   3.303
+batch 7400, ctc loss: 0.841368, cer: 0.215757, time/batch:   3.367
+batch 7500, ctc loss: 0.834034, cer: 0.218315, time/batch:   3.528
+batch 7600, ctc loss: 0.834409, cer: 0.214560, time/batch:   3.451
+batch 7700, ctc loss: 0.833372, cer: 0.214601, time/batch:   3.438
+batch 7800, ctc loss: 0.832970, cer: 0.213033, time/batch:   3.427
+batch 7900, ctc loss: 0.834824, cer: 0.214973, time/batch:   3.349
+batch 8000, ctc loss: 0.838160, cer: 0.213157, time/batch:   3.369
+batch 8100, ctc loss: 0.833859, cer: 0.213734, time/batch:   3.422
+batch 8200, ctc loss: 0.832500, cer: 0.211671, time/batch:   3.409
+batch 8300, ctc loss: 0.828972, cer: 0.210722, time/batch:   3.454
+batch 8400, ctc loss: 0.828152, cer: 0.211341, time/batch:   3.447
+batch 8500, ctc loss: 0.825029, cer: 0.210474, time/batch:   3.468
+batch 8600, ctc loss: 0.834235, cer: 0.209938, time/batch:   3.446
+batch 8700, ctc loss: 0.836147, cer: 0.210887, time/batch:   3.363
+batch 8800, ctc loss: 0.841747, cer: 0.210887, time/batch:   3.353
+batch 8900, ctc loss: 0.835725, cer: 0.209525, time/batch:   3.375
+batch 9000, ctc loss: 0.834674, cer: 0.208576, time/batch:   3.246
+batch 9100, ctc loss: 0.830627, cer: 0.208163, time/batch:   3.537
+batch 9200, ctc loss: 0.849136, cer: 0.209401, time/batch:   3.499
+batch 9300, ctc loss: 0.845441, cer: 0.210598, time/batch:   3.346
+batch 9400, ctc loss: 0.842006, cer: 0.209319, time/batch:   3.343
+batch 9500, ctc loss: 0.837099, cer: 0.207420, time/batch:   3.343
+batch 9600, ctc loss: 0.844071, cer: 0.206554, time/batch:   3.439
+batch 9700, ctc loss: 0.841526, cer: 0.205976, time/batch:   3.387
+batch 9800, ctc loss: 0.844510, cer: 0.205852, time/batch:   3.340
+batch 9900, ctc loss: 0.845655, cer: 0.205316, time/batch:   3.375

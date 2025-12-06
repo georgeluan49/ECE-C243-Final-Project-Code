@@ -1,0 +1,57 @@
+/opt/python/3.10/lib/python3.10/site-packages/torch/functional.py:513: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3609.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/qitongluan/neural_seq_decoder/src/neural_decoder/augmentations.py:91: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at ../aten/src/ATen/native/Convolution.cpp:1031.)
+  return self.conv(input, weight=self.weight, groups=self.groups, padding="same")
+/home/qitongluan/neural_seq_decoder/src/neural_decoder/neural_decoder_trainer_AdamW.py:183: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  torch.tensor(pred[iterIdx, 0 : adjustedLens[iterIdx], :]),
+/home/qitongluan/neural_seq_decoder
+batch 0, ctc loss: 7.326713, cer: 0.914283, time/batch:   0.118
+batch 100, ctc loss: 11.750380, cer: 0.925921, time/batch:   3.009
+batch 200, ctc loss: 3.650650, cer: 0.963683, time/batch:   3.032
+batch 300, ctc loss: 5.477607, cer: 0.963683, time/batch:   2.965
+batch 400, ctc loss: 3.924606, cer: 0.963683, time/batch:   3.067
+batch 500, ctc loss: 3.584270, cer: 0.963683, time/batch:   3.097
+batch 600, ctc loss: 5.241584, cer: 0.963683, time/batch:   3.031
+batch 700, ctc loss: 12.493542, cer: 0.893401, time/batch:   3.030
+batch 800, ctc loss: 92.863368, cer: 0.978911, time/batch:   3.130
+batch 900, ctc loss: 52.319811, cer: 0.895960, time/batch:   3.086
+batch 1000, ctc loss: 7.942314, cer: 0.945070, time/batch:   3.041
+batch 1100, ctc loss: 3.814004, cer: 0.941562, time/batch:   3.014
+batch 1200, ctc loss: 3.911828, cer: 0.944369, time/batch:   2.969
+batch 1300, ctc loss: 3.564502, cer: 0.946432, time/batch:   3.044
+batch 1400, ctc loss: 3.571937, cer: 0.939747, time/batch:   2.975
+batch 1500, ctc loss: 3.533872, cer: 0.945442, time/batch:   3.064
+batch 1600, ctc loss: 3.774177, cer: 0.945648, time/batch:   3.007
+batch 1700, ctc loss: 3.835878, cer: 0.915769, time/batch:   3.090
+batch 1800, ctc loss: 4.804577, cer: 0.944823, time/batch:   3.043
+batch 1900, ctc loss: 9.268724, cer: 0.901614, time/batch:   3.032
+batch 2000, ctc loss: 26.495326, cer: 0.951632, time/batch:   2.984
+batch 2100, ctc loss: 25.460680, cer: 0.951385, time/batch:   3.122
+batch 2200, ctc loss: 9.912642, cer: 0.947794, time/batch:   3.029
+batch 2300, ctc loss: 3.565214, cer: 0.945607, time/batch:   3.008
+batch 2400, ctc loss: 3.552073, cer: 0.939251, time/batch:   3.010
+batch 2500, ctc loss: 3.518202, cer: 0.941274, time/batch:   3.027
+batch 2600, ctc loss: 3.712865, cer: 0.932442, time/batch:   3.004
+batch 2700, ctc loss: 3.538317, cer: 0.946721, time/batch:   3.005
+batch 2800, ctc loss: 3.493484, cer: 0.945854, time/batch:   2.991
+batch 2900, ctc loss: 3.886138, cer: 0.919112, time/batch:   3.031
+batch 3000, ctc loss: 3.593424, cer: 0.945813, time/batch:   3.088
+batch 3100, ctc loss: 3.543050, cer: 0.945813, time/batch:   2.971
+batch 3200, ctc loss: 3.559005, cer: 0.945813, time/batch:   3.015
+batch 3300, ctc loss: 3.880356, cer: 0.946969, time/batch:   3.003
+batch 3400, ctc loss: 6.506213, cer: 0.945813, time/batch:   3.025
+batch 3500, ctc loss: 40.663042, cer: 0.881433, time/batch:   2.964
+batch 3600, ctc loss: 25.863820, cer: 0.895588, time/batch:   3.064
+batch 3700, ctc loss: 12.311925, cer: 0.937394, time/batch:   3.001
+batch 3800, ctc loss: 3.515241, cer: 0.945813, time/batch:   3.022
+batch 3900, ctc loss: 3.456740, cer: 0.946886, time/batch:   3.021
+batch 4000, ctc loss: 3.493202, cer: 0.937394, time/batch:   3.046
+batch 4100, ctc loss: 3.453296, cer: 0.945813, time/batch:   3.050
+batch 4200, ctc loss: 3.442138, cer: 0.946680, time/batch:   3.061
+batch 4300, ctc loss: 3.521992, cer: 0.945813, time/batch:   3.064
+batch 4400, ctc loss:     nan, cer: 1.000000, time/batch:   2.879
+batch 4500, ctc loss:     nan, cer: 1.000000, time/batch:   2.452
+batch 4600, ctc loss:     nan, cer: 1.000000, time/batch:   2.435
+batch 4700, ctc loss:     nan, cer: 1.000000, time/batch:   2.468
+batch 4800, ctc loss:     nan, cer: 1.000000, time/batch:   2.392
+batch 4900, ctc loss:     nan, cer: 1.000000, time/batch:   2.471
